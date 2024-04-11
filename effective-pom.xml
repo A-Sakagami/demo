@@ -44,6 +44,18 @@
       <version>5.6.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.6</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <repositories>
     <repository>
@@ -69,22 +81,22 @@
     </pluginRepository>
   </pluginRepositories>
   <build>
-    <sourceDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\src\main\java</sourceDirectory>
-    <scriptSourceDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\src\main\scripts</scriptSourceDirectory>
-    <testSourceDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\src\test\java</testSourceDirectory>
-    <outputDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\target\classes</outputDirectory>
-    <testOutputDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\target\test-classes</testOutputDirectory>
+    <sourceDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\src\main\java</sourceDirectory>
+    <scriptSourceDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\src\main\scripts</scriptSourceDirectory>
+    <testSourceDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\src\test\java</testSourceDirectory>
+    <outputDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target\classes</outputDirectory>
+    <testOutputDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target\test-classes</testOutputDirectory>
     <resources>
       <resource>
-        <directory>c:\Users\Akiya\java-maven-demo-20240411\demo\src\main\resources</directory>
+        <directory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\src\main\resources</directory>
       </resource>
     </resources>
     <testResources>
       <testResource>
-        <directory>c:\Users\Akiya\java-maven-demo-20240411\demo\src\test\resources</directory>
+        <directory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\src\test\resources</directory>
       </testResource>
     </testResources>
-    <directory>c:\Users\Akiya\java-maven-demo-20240411\demo\target</directory>
+    <directory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target</directory>
     <finalName>demo-1.0-SNAPSHOT</finalName>
     <pluginManagement>
       <plugins>
@@ -201,7 +213,7 @@
               <goal>check</goal>
             </goals>
             <configuration>
-              <dataFile>c:\Users\Akiya\java-maven-demo-20240411\demo\target/jacoco.exec</dataFile>
+              <dataFile>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target/jacoco.exec</dataFile>
               <rules>
                 <rule>
                   <element>BUNDLE</element>
@@ -346,7 +358,7 @@
               <goal>site</goal>
             </goals>
             <configuration>
-              <outputDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\target\site</outputDirectory>
+              <outputDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target\site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -367,7 +379,7 @@
               <goal>deploy</goal>
             </goals>
             <configuration>
-              <outputDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\target\site</outputDirectory>
+              <outputDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target\site</outputDirectory>
               <reportPlugins>
                 <reportPlugin>
                   <groupId>org.apache.maven.plugins</groupId>
@@ -383,7 +395,7 @@
           </execution>
         </executions>
         <configuration>
-          <outputDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\target\site</outputDirectory>
+          <outputDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target\site</outputDirectory>
           <reportPlugins>
             <reportPlugin>
               <groupId>org.apache.maven.plugins</groupId>
@@ -400,7 +412,7 @@
     </plugins>
   </build>
   <reporting>
-    <outputDirectory>c:\Users\Akiya\java-maven-demo-20240411\demo\target\site</outputDirectory>
+    <outputDirectory>C:\Users\Akiya\java-maven-demo-20240411\java-demo\target\site</outputDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-javadoc-plugin</artifactId>
