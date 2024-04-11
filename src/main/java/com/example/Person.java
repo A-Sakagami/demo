@@ -12,7 +12,7 @@ public class Person {
         this.profession = profession;
     }
 
-    /* その他のメソッドも定義できる。 */
+    /* getter, setter（カプセル化） */
     public String getFirstName() {
         return firstName;
     }
