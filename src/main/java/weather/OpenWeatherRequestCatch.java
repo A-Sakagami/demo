@@ -1,5 +1,6 @@
 package weather;
 
+import java.util.Scanner;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
@@ -11,8 +12,12 @@ public class OpenWeatherRequestCatch {
     public static void main(String[] args) throws Exception {
         /* 個人取得したAPIを環境変数として保存してください。*/
         String apiKey = System.getenv("OPEN_WEATHER_API_KEY");
+        /* 天気情報を見たい都市（コマンドラインに入力） */
+        Scanner scanner = new Scanner(System.in);
+        String city = scanner.next();
+        scanner.close();
         /* API呼び出し。一例として、hokkaidoを入力しています。*/
-        String url = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=" + apiKey;
+        String url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=" + apiKey;
 
         try (CloseableHttpClient client = HttpClients.createDefault()) {
             HttpGet request = new HttpGet(url);
