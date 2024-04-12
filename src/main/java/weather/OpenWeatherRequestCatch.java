@@ -16,8 +16,8 @@ public class OpenWeatherRequestCatch {
         Scanner scanner = new Scanner(System.in);
         String city = scanner.next();
         scanner.close();
-        /* API呼び出し。一例として、hokkaidoを入力しています。*/
-        String url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=" + apiKey;
+        /* API呼び出し。*/
+        String url = "https://api.openweathermap.org/data/2.5/weather?q="+ city +"&appid=" + apiKey;
 
         try (CloseableHttpClient client = HttpClients.createDefault()) {
             HttpGet request = new HttpGet(url);
