@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\httprequest\GetAPIKEY.java">
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\httprequest\HttpClientService.java">
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\weather\OpenWeatherRequestCatch.java">
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\App.java">
+<error line="22" column="84" severity="error" message="&apos;+&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" column="84" severity="error" message="&apos;+&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\Person.java">
+<error line="7" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="10" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\SpringBootDemo.java">
+<error line="7" column="4" severity="warning" message="不明なタグ &apos;params&apos;。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\resources\application.properties">
+</file>
+</checkstyle>

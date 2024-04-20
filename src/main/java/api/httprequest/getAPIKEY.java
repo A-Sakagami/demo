@@ -1,9 +1,10 @@
 package api.httprequest;
 
-public class getAPIKEY {
+public class GetAPIKEY {
     /**
-     * String OPENWEATHER_API：get here https://openweathermap.org/current
-     * 
+     * @author @A-Sakagami 
+     * API key for the application.
+     * @param String OPENWEATHER_API：get here https://openweathermap.org/current
      */
     private final static String OPENWEATHER_API = System.getenv("OPEN_WEATHER_API_KEY");
 

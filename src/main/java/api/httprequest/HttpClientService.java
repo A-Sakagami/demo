@@ -7,6 +7,12 @@ import org.apache.http.util.EntityUtils;
 import org.apache.http.client.HttpClient;
 
 public class HttpClientService {
+    /**
+     * @A-Sakagami
+     * API Request send for the application.
+     * @params httpClient
+     * @throws IOException
+     */
     private HttpClient httpClient;
 
     public HttpClientService(HttpClient httpClient) {

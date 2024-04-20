@@ -1,5 +1,7 @@
 package com.example;
-/* クラス */
+/**
+ * @author @A-Sakagami 
+ **/
 public class Person {
 
     private String firstName;

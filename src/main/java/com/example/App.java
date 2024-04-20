@@ -8,6 +8,7 @@ public class App {
     }
 
     /**
+     * @author @A-Sakagami 
      * Says hello to the world.
      * @param args The arguments of the program.
      */
