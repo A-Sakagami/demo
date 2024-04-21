@@ -19,6 +19,7 @@
 <error line="17" column="8" severity="warning" message="&apos;profession&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\SpringBootDemo.java">
+<error line="8" column="4" severity="warning" message="不明なタグ &apos;params&apos;。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\resources\application.properties">
 </file>

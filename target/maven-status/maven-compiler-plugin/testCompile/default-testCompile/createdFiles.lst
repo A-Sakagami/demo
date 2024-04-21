@@ -1,3 +1,4 @@
-com\example\AppTest.class
 api\weather\OpenWeatherRequestCatchTest.class
-com\example\PersonTest.class
+PersonTest.class
+com\java_react_demo\SpringBootDemoTest.class
+com\java_react_demo\AppTest.class

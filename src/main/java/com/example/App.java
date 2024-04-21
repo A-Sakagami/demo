@@ -1,4 +1,4 @@
-package com.example;
+package com.java_react_demo;
 
 /**
  * Hello world!
