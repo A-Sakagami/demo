@@ -1,0 +1,5 @@
+api\weather\OpenWeatherRequestCatch.class
+api\httprequest\HttpClientService.class
+com\example\App.class
+api\httprequest\GetAPIKEY.class
+com\example\Person.class

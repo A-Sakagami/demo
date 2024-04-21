@@ -15,11 +15,12 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        Person p = new Person("graffical");
+        Person p = new Person();
         p.setFirstName("Ryohma");
         p.setLastName("Sakamoto");
         p.setAge(20);
-        System.out.println("My name is " + p.getLastName() + " " + p.getFirstName()+".");
+        p.setProfession("改革者");
+        System.out.println("My name is " + p.getLastName() + " " + p.getFirstName() + ".");
         System.out.println("My age is " + p.getAge() + " years old.");
         
     }

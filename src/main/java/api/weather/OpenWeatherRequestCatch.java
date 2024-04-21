@@ -18,7 +18,7 @@ public class OpenWeatherRequestCatch {
         String city = scanner.next();
         scanner.close();
         /* API呼び出し。*/
-        String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + getAPIKEY.getOpenweatherApi();
+        String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + GetAPIKEY.getOpenweatherApi();
 
         HttpClientService httpClientService = new HttpClientService(HttpClients.createDefault());
 

@@ -7,17 +7,18 @@
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\weather\OpenWeatherRequestCatch.java">
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\App.java">
-<error line="22" column="84" severity="error" message="&apos;+&apos; の前にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="22" column="84" severity="error" message="&apos;+&apos; の後にホワイトスペースがありません。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\Person.java">
+<error line="5" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="7" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 <error line="8" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="9" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="10" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="8" severity="warning" message="&apos;firstname&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" column="8" severity="warning" message="&apos;lastname&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="8" severity="warning" message="&apos;age&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="17" column="8" severity="warning" message="&apos;profession&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\example\SpringBootDemo.java">
-<error line="7" column="4" severity="warning" message="不明なタグ &apos;params&apos;。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\resources\application.properties">
 </file>
