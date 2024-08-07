@@ -3,25 +3,22 @@
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\httprequest\GetAPIKEY.java">
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\httprequest\HttpClientService.java">
+<error line="10" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\api\weather\OpenWeatherRequestCatch.java">
 </file>
-<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\App.java">
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\controller\WeatherController.java">
+<error line="13" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
-<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\Person.java">
-<error line="5" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="6" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="7" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="8" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
-<error line="14" column="8" severity="warning" message="&apos;firstname&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="15" column="8" severity="warning" message="&apos;lastname&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="16" column="8" severity="warning" message="&apos;age&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="17" column="8" severity="warning" message="&apos;profession&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\service\WeatherService.java">
+<error line="13" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\SpringBootDemo.java">
 <error line="12" column="4" severity="warning" message="不明なタグ &apos;params&apos;。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="19" column="8" severity="warning" message="&apos;res:&apos; に対する使用されない @param タグです。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="23" column="47" severity="warning" message="&apos;location&apos; には @param タグが必要です。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\WeatherAppApplication.java">
 </file>
 <file name="C:\Users\Akiya\java-maven-demo-20240411\java-demo\backend\src\main\java\com\java_react_demo\WeatherResponse.java">
 <error line="4" column="5" severity="warning" message="Javadoc コメントがありません。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>

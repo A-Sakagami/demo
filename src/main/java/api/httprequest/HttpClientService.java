@@ -1,27 +1,26 @@
 package api.httprequest;
 
-import java.io.IOException;
-import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.util.EntityUtils;
-import org.apache.http.client.HttpClient;
 
 public class HttpClientService {
-    /**
-     * @A-Sakagami
-     * API Request send for the application.
-     * @params httpClient
-     * @throws IOException
-     */
-    private HttpClient httpClient;
 
-    public HttpClientService(HttpClient httpClient) {
+    private final CloseableHttpClient httpClient;
+
+    public HttpClientService(CloseableHttpClient httpClient) {
         this.httpClient = httpClient;
     }
 
-    public String sendRequest(String url) throws IOException {
+    public String sendRequest(String url) throws Exception {
         HttpGet request = new HttpGet(url);
-        HttpResponse response = httpClient.execute(request);
-        return EntityUtils.toString(response.getEntity());
+
+        try (CloseableHttpResponse response = httpClient.execute(request)) {
+            if (response.getStatusLine().getStatusCode() != 200) {
+                throw new Exception("Failed to get successful response");
+            }
+            return EntityUtils.toString(response.getEntity());
+        }
     }
 }

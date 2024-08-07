@@ -1,7 +1,8 @@
+com\java_react_demo\WeatherAppApplication.class
 com\java_react_demo\SpringBootDemo.class
 api\weather\OpenWeatherRequestCatch.class
-com\java_react_demo\App.class
 api\httprequest\HttpClientService.class
+com\java_react_demo\controller\WeatherController.class
+com\java_react_demo\service\WeatherService.class
 com\java_react_demo\WeatherResponse.class
 api\httprequest\GetAPIKEY.class
-com\java_react_demo\Person.class
